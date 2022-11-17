@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="19" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-17T12:38:49 IST" name="Default suite" finished-at="2022-11-17T12:49:08 IST" duration-ms="618885">
+    <groups>
+      <group name="">
+        <method signature="NewFeedback.Create_Feedback()[pri:0, instance:feedback_tests.NewFeedback@201a4587]" name="Create_Feedback" class="feedback_tests.NewFeedback"/>
+        <method signature="NewFeedback.Share_FeedbackMail()[pri:0, instance:feedback_tests.NewFeedback@201a4587]" name="Share_FeedbackMail" class="feedback_tests.NewFeedback"/>
+        <method signature="NewFeedback.Share_FeedbackWAP()[pri:0, instance:feedback_tests.NewFeedback@201a4587]" name="Share_FeedbackWAP" class="feedback_tests.NewFeedback"/>
+      </group> <!--  -->
+    </groups>
+    <test started-at="2022-11-17T12:38:49 IST" name="Default test" finished-at="2022-11-17T12:49:08 IST" duration-ms="618885">
+      <class name="login_Roles_tests.LoginDiffRoles">
+        <test-method signature="DifferentRolesLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:login_Roles_tests.LoginDiffRoles@3a44431a]" started-at="2022-11-17T12:38:49 IST" name="DifferentRolesLogin" data-provider="credentials" finished-at="2022-11-17T12:39:21 IST" duration-ms="31381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Superdoc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dpranit07@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aa123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DifferentRolesLogin -->
+        <test-method signature="DifferentRolesLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:login_Roles_tests.LoginDiffRoles@3a44431a]" started-at="2022-11-17T12:39:21 IST" name="DifferentRolesLogin" data-provider="credentials" finished-at="2022-11-17T12:39:50 IST" duration-ms="29583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Doctor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jeceni6533@pamaweb.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aa123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DifferentRolesLogin -->
+        <test-method signature="DifferentRolesLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:login_Roles_tests.LoginDiffRoles@3a44431a]" started-at="2022-11-17T12:39:50 IST" name="DifferentRolesLogin" data-provider="credentials" finished-at="2022-11-17T12:40:18 IST" duration-ms="27820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Consultant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vahesop275@dakcans.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aa123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DifferentRolesLogin -->
+        <test-method signature="DifferentRolesLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:login_Roles_tests.LoginDiffRoles@3a44431a]" started-at="2022-11-17T12:40:18 IST" name="DifferentRolesLogin" data-provider="credentials" finished-at="2022-11-17T12:40:45 IST" duration-ms="27108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidSuperdoc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pranit07@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AA123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DifferentRolesLogin -->
+        <test-method signature="DifferentRolesLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:login_Roles_tests.LoginDiffRoles@3a44431a]" started-at="2022-11-17T12:40:45 IST" name="DifferentRolesLogin" data-provider="credentials" finished-at="2022-11-17T12:41:12 IST" duration-ms="27144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidDoc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pranit07@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AA123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DifferentRolesLogin -->
+      </class> <!-- login_Roles_tests.LoginDiffRoles -->
+      <class name="feedback_tests.NewFeedback">
+        <test-method is-config="true" signature="setup()[pri:0, instance:feedback_tests.NewFeedback@201a4587]" started-at="2022-11-17T12:41:12 IST" name="setup" finished-at="2022-11-17T12:41:18 IST" duration-ms="6002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Create_Feedback()[pri:0, instance:feedback_tests.NewFeedback@201a4587]" started-at="2022-11-17T12:41:18 IST" name="Create_Feedback" finished-at="2022-11-17T12:41:30 IST" duration-ms="12305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Feedback -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:feedback_tests.NewFeedback@201a4587]" started-at="2022-11-17T12:41:30 IST" name="teardown" finished-at="2022-11-17T12:41:31 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:feedback_tests.NewFeedback@201a4587]" started-at="2022-11-17T12:41:31 IST" name="setup" finished-at="2022-11-17T12:41:39 IST" duration-ms="8460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Share_FeedbackMail()[pri:0, instance:feedback_tests.NewFeedback@201a4587]" started-at="2022-11-17T12:41:39 IST" name="Share_FeedbackMail" finished-at="2022-11-17T12:41:52 IST" duration-ms="12563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Share_FeedbackMail -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:feedback_tests.NewFeedback@201a4587]" started-at="2022-11-17T12:41:52 IST" name="teardown" finished-at="2022-11-17T12:42:08 IST" duration-ms="16166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:feedback_tests.NewFeedback@201a4587]" started-at="2022-11-17T12:42:08 IST" name="setup" finished-at="2022-11-17T12:42:17 IST" duration-ms="8876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Share_FeedbackWAP()[pri:0, instance:feedback_tests.NewFeedback@201a4587]" started-at="2022-11-17T12:42:17 IST" name="Share_FeedbackWAP" finished-at="2022-11-17T12:42:28 IST" duration-ms="11257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Share_FeedbackWAP -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:feedback_tests.NewFeedback@201a4587]" started-at="2022-11-17T12:42:28 IST" name="teardown" finished-at="2022-11-17T12:42:44 IST" duration-ms="16200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- feedback_tests.NewFeedback -->
+      <class name="appointments_tests.Consultation_appointment_test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:appointments_tests.Consultation_appointment_test@60bd273d]" started-at="2022-11-17T12:42:44 IST" name="setup" finished-at="2022-11-17T12:42:52 IST" duration-ms="8281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ConsultationAppoinment(java.lang.String)[pri:0, instance:appointments_tests.Consultation_appointment_test@60bd273d]" started-at="2022-11-17T12:42:52 IST" name="ConsultationAppoinment" data-provider="Names" finished-at="2022-11-17T12:43:23 IST" duration-ms="30620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pranit Dhole]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConsultationAppoinment -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:appointments_tests.Consultation_appointment_test@60bd273d]" started-at="2022-11-17T12:43:23 IST" name="teardown" finished-at="2022-11-17T12:43:23 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- appointments_tests.Consultation_appointment_test -->
+      <class name="payments_tests.RetainerInvoice">
+        <test-method is-config="true" signature="setup()[pri:0, instance:payments_tests.RetainerInvoice@121314f7]" started-at="2022-11-17T12:43:23 IST" name="setup" finished-at="2022-11-17T12:43:31 IST" duration-ms="7289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NewRetainerInvoice(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:payments_tests.RetainerInvoice@121314f7]" started-at="2022-11-17T12:43:31 IST" name="NewRetainerInvoice" data-provider="TestData" finished-at="2022-11-17T12:43:52 IST" duration-ms="21077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pranit Dhole]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[50000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewRetainerInvoice -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:payments_tests.RetainerInvoice@121314f7]" started-at="2022-11-17T12:43:52 IST" name="teardown" finished-at="2022-11-17T12:44:08 IST" duration-ms="16192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:payments_tests.RetainerInvoice@121314f7]" started-at="2022-11-17T12:44:08 IST" name="setup" finished-at="2022-11-17T12:44:14 IST" duration-ms="6063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NewRetainerInvoice(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:payments_tests.RetainerInvoice@121314f7]" started-at="2022-11-17T12:44:14 IST" name="NewRetainerInvoice" data-provider="TestData" finished-at="2022-11-17T12:44:32 IST" duration-ms="18041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vijay K]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[UPI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewRetainerInvoice -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:payments_tests.RetainerInvoice@121314f7]" started-at="2022-11-17T12:44:32 IST" name="teardown" finished-at="2022-11-17T12:44:48 IST" duration-ms="16178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:payments_tests.RetainerInvoice@121314f7]" started-at="2022-11-17T12:44:48 IST" name="setup" finished-at="2022-11-17T12:44:55 IST" duration-ms="7234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NewRetainerInvoice(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:payments_tests.RetainerInvoice@121314f7]" started-at="2022-11-17T12:44:55 IST" name="NewRetainerInvoice" data-provider="TestData" finished-at="2022-11-17T12:45:17 IST" duration-ms="21757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samuel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Card]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewRetainerInvoice -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:payments_tests.RetainerInvoice@121314f7]" started-at="2022-11-17T12:45:17 IST" name="teardown" finished-at="2022-11-17T12:45:33 IST" duration-ms="16186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- payments_tests.RetainerInvoice -->
+      <class name="payments_tests.NewCreditNote">
+        <test-method is-config="true" signature="setup()[pri:0, instance:payments_tests.NewCreditNote@2e3967ea]" started-at="2022-11-17T12:47:21 IST" name="setup" finished-at="2022-11-17T12:47:29 IST" duration-ms="8106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="creditnote_Procedure(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:payments_tests.NewCreditNote@2e3967ea]" started-at="2022-11-17T12:47:29 IST" name="creditnote_Procedure" data-provider="ProcedureTestData" finished-at="2022-11-17T12:47:43 IST" duration-ms="13136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abhilash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Credit Note]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Procedure]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditnote_Procedure -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:payments_tests.NewCreditNote@2e3967ea]" started-at="2022-11-17T12:47:43 IST" name="teardown" finished-at="2022-11-17T12:47:43 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:payments_tests.NewCreditNote@2e3967ea]" started-at="2022-11-17T12:47:43 IST" name="setup" finished-at="2022-11-17T12:47:48 IST" duration-ms="5291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="creditnote_Procedure(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:payments_tests.NewCreditNote@2e3967ea]" started-at="2022-11-17T12:47:48 IST" name="creditnote_Procedure" data-provider="ProcedureTestData" finished-at="2022-11-17T12:48:02 IST" duration-ms="14141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vijay K]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Credit Note]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Procedure]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditnote_Procedure -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:payments_tests.NewCreditNote@2e3967ea]" started-at="2022-11-17T12:48:02 IST" name="teardown" finished-at="2022-11-17T12:48:02 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:payments_tests.NewCreditNote@2e3967ea]" started-at="2022-11-17T12:48:02 IST" name="setup" finished-at="2022-11-17T12:48:09 IST" duration-ms="6920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="creditnote_Product(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:payments_tests.NewCreditNote@2e3967ea]" started-at="2022-11-17T12:48:09 IST" name="creditnote_Product" data-provider="ProductTestData" finished-at="2022-11-17T12:48:26 IST" duration-ms="16819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abhilash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Credit Note]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Product]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditnote_Product -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:payments_tests.NewCreditNote@2e3967ea]" started-at="2022-11-17T12:48:26 IST" name="teardown" finished-at="2022-11-17T12:48:26 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:payments_tests.NewCreditNote@2e3967ea]" started-at="2022-11-17T12:48:26 IST" name="setup" finished-at="2022-11-17T12:48:48 IST" duration-ms="22080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="creditnote_Product(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:payments_tests.NewCreditNote@2e3967ea]" started-at="2022-11-17T12:48:48 IST" name="creditnote_Product" data-provider="ProductTestData" finished-at="2022-11-17T12:49:08 IST" duration-ms="19489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vijay K]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Credit Note]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Product]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditnote_Product -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:payments_tests.NewCreditNote@2e3967ea]" started-at="2022-11-17T12:49:08 IST" name="teardown" finished-at="2022-11-17T12:49:08 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- payments_tests.NewCreditNote -->
+      <class name="appointments_tests.Counselling_appointment_test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:appointments_tests.Counselling_appointment_test@130c12b7]" started-at="2022-11-17T12:45:33 IST" name="setup" finished-at="2022-11-17T12:45:39 IST" duration-ms="5702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CounsellingAppoinmentS(java.lang.String)[pri:0, instance:appointments_tests.Counselling_appointment_test@130c12b7]" started-at="2022-11-17T12:45:39 IST" name="CounsellingAppoinmentS" data-provider="Names" finished-at="2022-11-17T12:46:03 IST" duration-ms="24561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pranit Dhole]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CounsellingAppoinmentS -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:appointments_tests.Counselling_appointment_test@130c12b7]" started-at="2022-11-17T12:46:03 IST" name="teardown" finished-at="2022-11-17T12:46:04 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- appointments_tests.Counselling_appointment_test -->
+      <class name="costCalculator_tests.CalculateCost">
+        <test-method is-config="true" signature="setup()[pri:0, instance:costCalculator_tests.CalculateCost@5d534f5d]" started-at="2022-11-17T12:46:04 IST" name="setup" finished-at="2022-11-17T12:46:11 IST" duration-ms="7761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ProcedureCostCalculate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:costCalculator_tests.CalculateCost@5d534f5d]" started-at="2022-11-17T12:46:11 IST" name="ProcedureCostCalculate" data-provider="Details" finished-at="2022-11-17T12:46:27 IST" duration-ms="15784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smaran]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dermal Fillers]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProcedureCostCalculate -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:costCalculator_tests.CalculateCost@5d534f5d]" started-at="2022-11-17T12:46:27 IST" name="teardown" finished-at="2022-11-17T12:46:27 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:costCalculator_tests.CalculateCost@5d534f5d]" started-at="2022-11-17T12:46:27 IST" name="setup" finished-at="2022-11-17T12:46:33 IST" duration-ms="5682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ProcedureCostCalculate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:costCalculator_tests.CalculateCost@5d534f5d]" started-at="2022-11-17T12:46:33 IST" name="ProcedureCostCalculate" data-provider="Details" finished-at="2022-11-17T12:46:42 IST" duration-ms="9278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vijay K]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pico Toning]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProcedureCostCalculate -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:costCalculator_tests.CalculateCost@5d534f5d]" started-at="2022-11-17T12:46:42 IST" name="teardown" finished-at="2022-11-17T12:46:58 IST" duration-ms="16161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:costCalculator_tests.CalculateCost@5d534f5d]" started-at="2022-11-17T12:46:58 IST" name="setup" finished-at="2022-11-17T12:47:05 IST" duration-ms="6438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ShareQuotation()[pri:0, instance:costCalculator_tests.CalculateCost@5d534f5d]" started-at="2022-11-17T12:47:05 IST" name="ShareQuotation" finished-at="2022-11-17T12:47:21 IST" duration-ms="16234" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button _ngcontent-oen-c162="" type="undefined" class="button-outlined-primary" disabled="">...</button> is not clickable at point (1379, 679). Other element would receive the click: <button _ngcontent-oen-c162="" type="undefined" class="button-filled-primary">...</button>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [33d33d38ad1f067d308ae11c6c7446c2, clickElement {id=90da6a8d-1a00-44ef-a4cb-16ece7c865d7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\dpran\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52901}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52901/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (33d33d38ad1f067d308ae11c6c7446c2)] -> xpath: //button[text()=' View Quotation ']]
+Session ID: 33d33d38ad1f067d308ae11c6c7446c2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-oen-c162="" type="undefined" class="button-outlined-primary" disabled="">...</button> is not clickable at point (1379, 679). Other element would receive the click: <button _ngcontent-oen-c162="" type="undefined" class="button-filled-primary">...</button>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [33d33d38ad1f067d308ae11c6c7446c2, clickElement {id=90da6a8d-1a00-44ef-a4cb-16ece7c865d7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\dpran\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52901}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52901/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (33d33d38ad1f067d308ae11c6c7446c2)] -> xpath: //button[text()=' View Quotation ']]
+Session ID: 33d33d38ad1f067d308ae11c6c7446c2
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at costCalculator_tests.CalculateCost.ShareQuotation(CalculateCost.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShareQuotation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:costCalculator_tests.CalculateCost@5d534f5d]" started-at="2022-11-17T12:47:21 IST" name="teardown" finished-at="2022-11-17T12:47:21 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- costCalculator_tests.CalculateCost -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

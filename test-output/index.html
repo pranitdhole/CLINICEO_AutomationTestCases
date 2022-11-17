@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\dpran\AppData\Local\Temp\testng-eclipse-1392083865\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 1 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="costCalculator_tests.CalculateCost" class="method navigator-link" hash-for-method="ShareQuotation">ShareQuotation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="appointments_tests.Consultation_appointment_test" class="method navigator-link" hash-for-method="ConsultationAppoinment(Pranit Dhole)">ConsultationAppoinment(Pranit Dhole)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="appointments_tests.Counselling_appointment_test" class="method navigator-link" hash-for-method="CounsellingAppoinmentS(Pranit Dhole)">CounsellingAppoinmentS(Pranit Dhole)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="feedback_tests.NewFeedback" class="method navigator-link" hash-for-method="Create_Feedback">Create_Feedback</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="login_Roles_tests.LoginDiffRoles" class="method navigator-link" hash-for-method="DifferentRolesLogin(Superdoc, dpranit07@gmail.com, Aa123456789)">DifferentRolesLogin(Superdoc, dpranit07@gmail.com, Aa123456789)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="login_Roles_tests.LoginDiffRoles" class="method navigator-link" hash-for-method="DifferentRolesLogin(Doctor, jeceni6533@pamaweb.com, Aa123456789)">DifferentRolesLogin(Doctor, jeceni6533@pamaweb.com, Aa123456789)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="login_Roles_tests.LoginDiffRoles" class="method navigator-link" hash-for-method="DifferentRolesLogin(Consultant, vahesop275@dakcans.com, Aa123456789)">DifferentRolesLogin(Consultant, vahesop275@dakcans.com, Aa123456789)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="login_Roles_tests.LoginDiffRoles" class="method navigator-link" hash-for-method="DifferentRolesLogin(InvalidSuperdoc, pranit07@gmail.com, AA123456789)">DifferentRolesLogin(InvalidSuperdoc, pranit07@gmail.com, AA123456789)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="login_Roles_tests.LoginDiffRoles" class="method navigator-link" hash-for-method="DifferentRolesLogin(InvalidDoc, pranit07@gmail.com, AA123456789)">DifferentRolesLogin(InvalidDoc, pranit07@gmail.com, AA123456789)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="payments_tests.RetainerInvoice" class="method navigator-link" hash-for-method="NewRetainerInvoice(Samuel, 10000, Card)">NewRetainerInvoice(Samuel, 10000, Card)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="payments_tests.RetainerInvoice" class="method navigator-link" hash-for-method="NewRetainerInvoice(Vijay K, 6000, UPI)">NewRetainerInvoice(Vijay K, 6000, UPI)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="payments_tests.RetainerInvoice" class="method navigator-link" hash-for-method="NewRetainerInvoice(Pranit Dhole, 50000, Cash)">NewRetainerInvoice(Pranit Dhole, 50000, Cash)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="costCalculator_tests.CalculateCost" class="method navigator-link" hash-for-method="ProcedureCostCalculate(Smaran, Dermal Fillers, 500)">ProcedureCostCalculate(Smaran, Dermal Fillers, 500)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="costCalculator_tests.CalculateCost" class="method navigator-link" hash-for-method="ProcedureCostCalculate(Vijay K, Pico Toning, 1000)">ProcedureCostCalculate(Vijay K, Pico Toning, 1000)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="feedback_tests.NewFeedback" class="method navigator-link" hash-for-method="Share_FeedbackMail">Share_FeedbackMail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="feedback_tests.NewFeedback" class="method navigator-link" hash-for-method="Share_FeedbackWAP">Share_FeedbackWAP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="payments_tests.NewCreditNote" class="method navigator-link" hash-for-method="creditnote_Procedure(Abhilash, New Credit Note, Procedure, 2, 1500)">creditnote_Procedure(Abhilash, New Credit Note, Procedure, 2, 1500)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="payments_tests.NewCreditNote" class="method navigator-link" hash-for-method="creditnote_Procedure(Vijay K, New Credit Note, Procedure, 1, 3000)">creditnote_Procedure(Vijay K, New Credit Note, Procedure, 1, 3000)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="payments_tests.NewCreditNote" class="method navigator-link" hash-for-method="creditnote_Product(Abhilash, New Credit Note, Product, 10, 150)">creditnote_Product(Abhilash, New Credit Note, Product, 10, 150)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="payments_tests.NewCreditNote" class="method navigator-link" hash-for-method="creditnote_Product(Vijay K, New Credit Note, Product, 20, 120)">creditnote_Product(Vijay K, New Credit Note, Product, 20, 120)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">costCalculator_tests.CalculateCost</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShareQuotation">
+                  </a> <!-- ShareQuotation -->
+                  <span class="method-name">ShareQuotation</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-oen-c162=&quot;&quot; type=&quot;undefined&quot; class=&quot;button-outlined-primary&quot; disabled=&quot;&quot;&gt;...&lt;/button&gt; is not clickable at point (1379, 679). Other element would receive the click: &lt;button _ngcontent-oen-c162=&quot;&quot; type=&quot;undefined&quot; class=&quot;button-filled-primary&quot;&gt;...&lt;/button&gt;
+  (Session info: chrome=107.0.5304.107)
+Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [33d33d38ad1f067d308ae11c6c7446c2, clickElement {id=90da6a8d-1a00-44ef-a4cb-16ece7c865d7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\dpran\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52901}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52901/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (33d33d38ad1f067d308ae11c6c7446c2)] -&gt; xpath: //button[text()=&apos; View Quotation &apos;]]
+Session ID: 33d33d38ad1f067d308ae11c6c7446c2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at costCalculator_tests.CalculateCost.ShareQuotation(CalculateCost.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">appointments_tests.Consultation_appointment_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ConsultationAppoinment(Pranit Dhole)">
+                  </a> <!-- ConsultationAppoinment(Pranit Dhole) -->
+                  <span class="method-name">ConsultationAppoinment</span>
+                  <span class="parameters">(Pranit Dhole)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">login_Roles_tests.LoginDiffRoles</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DifferentRolesLogin(Superdoc, dpranit07@gmail.com, Aa123456789)">
+                  </a> <!-- DifferentRolesLogin(Superdoc, dpranit07@gmail.com, Aa123456789) -->
+                  <span class="method-name">DifferentRolesLogin</span>
+                  <span class="parameters">(Superdoc, dpranit07@gmail.com, Aa123456789)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DifferentRolesLogin(Doctor, jeceni6533@pamaweb.com, Aa123456789)">
+                  </a> <!-- DifferentRolesLogin(Doctor, jeceni6533@pamaweb.com, Aa123456789) -->
+                  <span class="method-name">DifferentRolesLogin</span>
+                  <span class="parameters">(Doctor, jeceni6533@pamaweb.com, Aa123456789)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DifferentRolesLogin(Consultant, vahesop275@dakcans.com, Aa123456789)">
+                  </a> <!-- DifferentRolesLogin(Consultant, vahesop275@dakcans.com, Aa123456789) -->
+                  <span class="method-name">DifferentRolesLogin</span>
+                  <span class="parameters">(Consultant, vahesop275@dakcans.com, Aa123456789)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DifferentRolesLogin(InvalidSuperdoc, pranit07@gmail.com, AA123456789)">
+                  </a> <!-- DifferentRolesLogin(InvalidSuperdoc, pranit07@gmail.com, AA123456789) -->
+                  <span class="method-name">DifferentRolesLogin</span>
+                  <span class="parameters">(InvalidSuperdoc, pranit07@gmail.com, AA123456789)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DifferentRolesLogin(InvalidDoc, pranit07@gmail.com, AA123456789)">
+                  </a> <!-- DifferentRolesLogin(InvalidDoc, pranit07@gmail.com, AA123456789) -->
+                  <span class="method-name">DifferentRolesLogin</span>
+                  <span class="parameters">(InvalidDoc, pranit07@gmail.com, AA123456789)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">payments_tests.NewCreditNote</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="creditnote_Procedure(Abhilash, New Credit Note, Procedure, 2, 1500)">
+                  </a> <!-- creditnote_Procedure(Abhilash, New Credit Note, Procedure, 2, 1500) -->
+                  <span class="method-name">creditnote_Procedure</span>
+                  <span class="parameters">(Abhilash, New Credit Note, Procedure, 2, 1500)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="creditnote_Procedure(Vijay K, New Credit Note, Procedure, 1, 3000)">
+                  </a> <!-- creditnote_Procedure(Vijay K, New Credit Note, Procedure, 1, 3000) -->
+                  <span class="method-name">creditnote_Procedure</span>
+                  <span class="parameters">(Vijay K, New Credit Note, Procedure, 1, 3000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="creditnote_Product(Abhilash, New Credit Note, Product, 10, 150)">
+                  </a> <!-- creditnote_Product(Abhilash, New Credit Note, Product, 10, 150) -->
+                  <span class="method-name">creditnote_Product</span>
+                  <span class="parameters">(Abhilash, New Credit Note, Product, 10, 150)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="creditnote_Product(Vijay K, New Credit Note, Product, 20, 120)">
+                  </a> <!-- creditnote_Product(Vijay K, New Credit Note, Product, 20, 120) -->
+                  <span class="method-name">creditnote_Product</span>
+                  <span class="parameters">(Vijay K, New Credit Note, Product, 20, 120)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">costCalculator_tests.CalculateCost</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProcedureCostCalculate(Smaran, Dermal Fillers, 500)">
+                  </a> <!-- ProcedureCostCalculate(Smaran, Dermal Fillers, 500) -->
+                  <span class="method-name">ProcedureCostCalculate</span>
+                  <span class="parameters">(Smaran, Dermal Fillers, 500)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProcedureCostCalculate(Vijay K, Pico Toning, 1000)">
+                  </a> <!-- ProcedureCostCalculate(Vijay K, Pico Toning, 1000) -->
+                  <span class="method-name">ProcedureCostCalculate</span>
+                  <span class="parameters">(Vijay K, Pico Toning, 1000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">appointments_tests.Counselling_appointment_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CounsellingAppoinmentS(Pranit Dhole)">
+                  </a> <!-- CounsellingAppoinmentS(Pranit Dhole) -->
+                  <span class="method-name">CounsellingAppoinmentS</span>
+                  <span class="parameters">(Pranit Dhole)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">feedback_tests.NewFeedback</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Create_Feedback">
+                  </a> <!-- Create_Feedback -->
+                  <span class="method-name">Create_Feedback</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Share_FeedbackMail">
+                  </a> <!-- Share_FeedbackMail -->
+                  <span class="method-name">Share_FeedbackMail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Share_FeedbackWAP">
+                  </a> <!-- Share_FeedbackWAP -->
+                  <span class="method-name">Share_FeedbackWAP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">payments_tests.RetainerInvoice</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NewRetainerInvoice(Samuel, 10000, Card)">
+                  </a> <!-- NewRetainerInvoice(Samuel, 10000, Card) -->
+                  <span class="method-name">NewRetainerInvoice</span>
+                  <span class="parameters">(Samuel, 10000, Card)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NewRetainerInvoice(Vijay K, 6000, UPI)">
+                  </a> <!-- NewRetainerInvoice(Vijay K, 6000, UPI) -->
+                  <span class="method-name">NewRetainerInvoice</span>
+                  <span class="parameters">(Vijay K, 6000, UPI)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NewRetainerInvoice(Pranit Dhole, 50000, Cash)">
+                  </a> <!-- NewRetainerInvoice(Pranit Dhole, 50000, Cash) -->
+                  <span class="method-name">NewRetainerInvoice</span>
+                  <span class="parameters">(Pranit Dhole, 50000, Cash)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\dpran\AppData\Local\Temp\testng-eclipse-1392083865\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;login_Roles_tests.LoginDiffRoles&quot;/&gt;
+      &lt;class name=&quot;feedback_tests.NewFeedback&quot;/&gt;
+      &lt;class name=&quot;appointments_tests.Consultation_appointment_test&quot;/&gt;
+      &lt;class name=&quot;payments_tests.RetainerInvoice&quot;/&gt;
+      &lt;class name=&quot;appointments_tests.Counselling_appointment_test&quot;/&gt;
+      &lt;class name=&quot;costCalculator_tests.CalculateCost&quot;/&gt;
+      &lt;class name=&quot;payments_tests.NewCreditNote&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name"></span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Create_Feedback</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Share_FeedbackMail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Share_FeedbackWAP</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'DifferentRolesLogin')
+data.setCell(0, 2, 'login_Roles_tests.LoginDiffRoles')
+data.setCell(0, 3, 31381);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ConsultationAppoinment')
+data.setCell(1, 2, 'appointments_tests.Consultation_appointment_test')
+data.setCell(1, 3, 30620);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'DifferentRolesLogin')
+data.setCell(2, 2, 'login_Roles_tests.LoginDiffRoles')
+data.setCell(2, 3, 29583);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'DifferentRolesLogin')
+data.setCell(3, 2, 'login_Roles_tests.LoginDiffRoles')
+data.setCell(3, 3, 27820);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'DifferentRolesLogin')
+data.setCell(4, 2, 'login_Roles_tests.LoginDiffRoles')
+data.setCell(4, 3, 27144);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'DifferentRolesLogin')
+data.setCell(5, 2, 'login_Roles_tests.LoginDiffRoles')
+data.setCell(5, 3, 27108);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'CounsellingAppoinmentS')
+data.setCell(6, 2, 'appointments_tests.Counselling_appointment_test')
+data.setCell(6, 3, 24561);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'NewRetainerInvoice')
+data.setCell(7, 2, 'payments_tests.RetainerInvoice')
+data.setCell(7, 3, 21757);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'NewRetainerInvoice')
+data.setCell(8, 2, 'payments_tests.RetainerInvoice')
+data.setCell(8, 3, 21077);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'creditnote_Product')
+data.setCell(9, 2, 'payments_tests.NewCreditNote')
+data.setCell(9, 3, 19489);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'NewRetainerInvoice')
+data.setCell(10, 2, 'payments_tests.RetainerInvoice')
+data.setCell(10, 3, 18041);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'creditnote_Product')
+data.setCell(11, 2, 'payments_tests.NewCreditNote')
+data.setCell(11, 3, 16819);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ShareQuotation')
+data.setCell(12, 2, 'costCalculator_tests.CalculateCost')
+data.setCell(12, 3, 16234);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ProcedureCostCalculate')
+data.setCell(13, 2, 'costCalculator_tests.CalculateCost')
+data.setCell(13, 3, 15784);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'creditnote_Procedure')
+data.setCell(14, 2, 'payments_tests.NewCreditNote')
+data.setCell(14, 3, 14141);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'creditnote_Procedure')
+data.setCell(15, 2, 'payments_tests.NewCreditNote')
+data.setCell(15, 3, 13136);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Share_FeedbackMail')
+data.setCell(16, 2, 'feedback_tests.NewFeedback')
+data.setCell(16, 3, 12563);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Create_Feedback')
+data.setCell(17, 2, 'feedback_tests.NewFeedback')
+data.setCell(17, 3, 12305);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Share_FeedbackWAP')
+data.setCell(18, 2, 'feedback_tests.NewFeedback')
+data.setCell(18, 3, 11257);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ProcedureCostCalculate')
+data.setCell(19, 2, 'costCalculator_tests.CalculateCost')
+data.setCell(19, 3, 9278);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">login_Roles_tests.LoginDiffRoles</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DifferentRolesLogin(Superdoc, dpranit07@gmail.com, Aa123456789)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DifferentRolesLogin(Doctor, jeceni6533@pamaweb.com, Aa123456789)</span>
+                <span class="method-start">31384 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DifferentRolesLogin(Consultant, vahesop275@dakcans.com, Aa123456789)</span>
+                <span class="method-start">60968 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DifferentRolesLogin(InvalidSuperdoc, pranit07@gmail.com, AA123456789)</span>
+                <span class="method-start">88790 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DifferentRolesLogin(InvalidDoc, pranit07@gmail.com, AA123456789)</span>
+                <span class="method-start">115899 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">feedback_tests.NewFeedback</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">143048 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Create_Feedback</span>
+                <span class="method-start">149053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">161359 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">161506 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Share_FeedbackMail</span>
+                <span class="method-start">169966 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">182530 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">198696 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Share_FeedbackWAP</span>
+                <span class="method-start">207572 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">218830 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">appointments_tests.Consultation_appointment_test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">235030 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ConsultationAppoinment(Pranit Dhole)</span>
+                <span class="method-start">243311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">273933 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">payments_tests.RetainerInvoice</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">274079 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">NewRetainerInvoice(Pranit Dhole, 50000, Cash)</span>
+                <span class="method-start">281368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">302446 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">318638 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">NewRetainerInvoice(Vijay K, 6000, UPI)</span>
+                <span class="method-start">324702 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">342744 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">358922 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">NewRetainerInvoice(Samuel, 10000, Card)</span>
+                <span class="method-start">366156 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">387914 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">appointments_tests.Counselling_appointment_test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">404101 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CounsellingAppoinmentS(Pranit Dhole)</span>
+                <span class="method-start">409803 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">434365 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">costCalculator_tests.CalculateCost</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">434506 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ProcedureCostCalculate(Smaran, Dermal Fillers, 500)</span>
+                <span class="method-start">442267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">458053 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">458226 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ProcedureCostCalculate(Vijay K, Pico Toning, 1000)</span>
+                <span class="method-start">463909 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">473188 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">489349 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ShareQuotation</span>
+                <span class="method-start">495787 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">512023 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">payments_tests.NewCreditNote</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">512184 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">creditnote_Procedure(Abhilash, New Credit Note, Procedure, 2, 1500)</span>
+                <span class="method-start">520290 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">533430 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">533652 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">creditnote_Procedure(Vijay K, New Credit Note, Procedure, 1, 3000)</span>
+                <span class="method-start">538943 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">553085 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">553206 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">creditnote_Product(Abhilash, New Credit Note, Product, 10, 150)</span>
+                <span class="method-start">560127 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">576947 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">577129 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">creditnote_Product(Vijay K, New Credit Note, Product, 20, 120)</span>
+                <span class="method-start">599209 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">618700 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
